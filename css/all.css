@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+/**
+* all.css - style init for use with all browsers and media types
+*/
+
+/* Import css to undo some of the default styling of common (X)HTML browsers	*/
+@import url(undohtml.css);
+
+/**
+* Element Styles
+*/
+body {
+	font-family:Helvetica, sans-serif;
+	background-color: #fff;
+	color:#fff;
+	font-size:1em;
+}
+/**
+* Generic Classes
+*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.img-left {
+	float: left;
+	margin: 0.13em 0.63em 0.31em 0.13em;
+}
+.img-right {
+	float: right;
+	margin: 0.13em 0.13em 0.31em 0.63em;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.clear-both {
+	clear: both;
+}
+.clear-left {
+	clear: left;
+}
+.clear-right {
+	clear: right;
+}
+.no-wrap {
+	white-space: nowrap;
+}
+.hidden {
+	margin: 0;
+	padding: 0;
+	/* Take this out of flow of doc so page isn't effected when resizing */
+	position: absolute;
+	/* So hidden text doesn't become visible when resizing */
+	margin-left: -312.50em;
+}
+.error {
+	color: red;
+}

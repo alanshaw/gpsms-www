@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+#logo {
+	behavior:url(js/PIE.php);
+}
+#app-store {
+	background-image:url(../img/ie/App_Store_Badge_EN.png);
+}

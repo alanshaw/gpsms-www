@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+#logo {
+	behavior:url(js/PIE.php);
+}
+#next, #prev, #pagination {
+	display:none;
+}
+#app-store {
+	background-image:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='img/ie/App_Store_Badge_EN.png', sizingMethod='scale');
+	cursor:pointer;
+}
